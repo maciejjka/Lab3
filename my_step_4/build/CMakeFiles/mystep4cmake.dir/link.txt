@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/mystep4cmake.dir/scr/Polygon.cpp.o CMakeFiles/mystep4cmake.dir/scr/Rectangle.cpp.o CMakeFiles/mystep4cmake.dir/scr/Triangle.cpp.o CMakeFiles/mystep4cmake.dir/scr/main.cpp.o  -o mystep4cmake 

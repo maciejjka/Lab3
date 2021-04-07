@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/firstcmake.dir/main.cpp.o CMakeFiles/firstcmake.dir/Polygon.cpp.o CMakeFiles/firstcmake.dir/Rectangle.cpp.o CMakeFiles/firstcmake.dir/Triangle.cpp.o  -o firstcmake 

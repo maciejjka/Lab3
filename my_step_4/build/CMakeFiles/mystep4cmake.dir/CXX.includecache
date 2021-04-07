@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Polygon.h
+iostream
+-
+
+../include/Rectangle.h
+iostream
+-
+Polygon.h
+../include/Polygon.h
+
+../include/Triangle.h
+iostream
+-
+Polygon.h
+../include/Polygon.h
+
+/home/kacper/NiOdSR/LAB_4/cmake_make_lab/step_1/my_step_4/scr/Polygon.cpp
+Polygon.h
+/home/kacper/NiOdSR/LAB_4/cmake_make_lab/step_1/my_step_4/scr/Polygon.h
+
+/home/kacper/NiOdSR/LAB_4/cmake_make_lab/step_1/my_step_4/scr/Rectangle.cpp
+Rectangle.h
+/home/kacper/NiOdSR/LAB_4/cmake_make_lab/step_1/my_step_4/scr/Rectangle.h
+
+/home/kacper/NiOdSR/LAB_4/cmake_make_lab/step_1/my_step_4/scr/Triangle.cpp
+Triangle.h
+/home/kacper/NiOdSR/LAB_4/cmake_make_lab/step_1/my_step_4/scr/Triangle.h
+
+/home/kacper/NiOdSR/LAB_4/cmake_make_lab/step_1/my_step_4/scr/main.cpp
+iostream
+-
+Rectangle.h
+/home/kacper/NiOdSR/LAB_4/cmake_make_lab/step_1/my_step_4/scr/Rectangle.h
+Triangle.h
+/home/kacper/NiOdSR/LAB_4/cmake_make_lab/step_1/my_step_4/scr/Triangle.h
+Polygon.h
+/home/kacper/NiOdSR/LAB_4/cmake_make_lab/step_1/my_step_4/scr/Polygon.h
+
